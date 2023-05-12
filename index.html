@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto-Alura</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+<link rel="shortcut icon" href="imag/candado.png" type="imagen-pagina" />
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+
+<body>
+    <main>
+
+    <header >
+        <div class="caja">
+            <h1><img src="imag/alura-icono.png" alt="Logo Alura"></h1>
+            <nav> <!--se refiere al panel de navegación-->
+                <ul>
+                    <li id="inicialP"><a href="https://www.aluracursos.com/challenges/challenge-one-logica">Edición #5: Challenge ONE</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+    </header>
+
+
+<div class="contenedor">
+    <h3> -ENCRIPTADOR -</h3>
+    <div class="encriptador">
+        <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingrese el texto a modificar"></textarea>
+    
+    <div class="condiciones">
+    <p>Solo se aceptan letras minúsculas y sin acento </p>
+    </div>
+
+    <div class="botones">
+        <button class="boton-encriptador" type="button" onclick="encriptar()">Encriptar</button>
+        <button class="boton-desencriptador" type="button" onclick="desencriptar()" >Desencriptar</button>
+    </div>
+</div>
+
+<div class="encriptado">
+    <img src="imag/icono.png" alt="" id="icono">
+    <div class="mensaje-encriptado" id="mensaje-encriptado">
+    <h1 id="mensaje-title">Ningún mensaje fue encontrado</h1>
+    <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar </p>
+        </div>
+    </div>
+</div>
+</main>
+
+
+<footer class="footer">
+    <p class="attr">
+      Challenge del <span class="accent">Programa ONE</span>: <a href="https://www.oracle.com/lad/education/oracle-next-education/" class="attr-lnk" target="_blank">
+        Oracle Next Education</a> y <a href="https://www.aluracursos.com/" class="attr-lnk" target="_blank">alura Latam</a> - Codeado por 
+        <a href="https://github.com/AndreBacks?tab=repositories" class="attr-lnk" target="_blank">Andrea Castellanos</a>
+    </p>
+  </footer>
+
+</body>
+
+<script src="index.js"></script>
+</html>
