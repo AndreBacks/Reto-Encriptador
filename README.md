@@ -1,6 +1,12 @@
 # 🚀 Challenge Encriptador | Oracle + Alura
 
+## Vista Previa del proyecto
+### Ordenador
 ![Encriptador-ALURA](https://github.com/AndreBacks/Reto-encriptador/assets/131099065/a0bf35d1-681a-4d8e-a167-c2e538d2ffc6)
+### Movil
+
+![movil](https://github.com/AndreBacks/Reto-encriptador/assets/131099065/3d19d402-6d17-4085-a540-31613bcce773)
+
 
 # 📝 Descripción
 
