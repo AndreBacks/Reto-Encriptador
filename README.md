@@ -1,5 +1,6 @@
 # 🚀 Challenge Encriptador | Oracle + Alura
 
+![Encriptador-ALURA](https://github.com/AndreBacks/Reto-encriptador/assets/131099065/a0bf35d1-681a-4d8e-a167-c2e538d2ffc6)
 
 # 📝 Descripción
 
